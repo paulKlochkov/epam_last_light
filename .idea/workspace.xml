@@ -37,7 +37,7 @@
     <file path="/ViewResolver.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1389289005580" ignored="false" />
     <file path="/style.css" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1389140355570" ignored="false" />
     <file path="/ResourceResolver.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1389696668541" ignored="false" />
-    <file path="/fragment.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1389698753957" ignored="false" />
+    <file path="/fragment.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390324556004" ignored="false" />
     <file path="/WebActionParameterCreator.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1389562313920" ignored="false" />
     <file path="/WebActionParameter.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1389616007422" ignored="false" />
     <file path="/UriMatcher.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1389653061244" ignored="false" />
@@ -69,6 +69,20 @@
     <file path="/ConnectionPool.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1389962758432" ignored="false" />
     <file path="/ConnectionCreator.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1389899260012" ignored="false" />
     <file path="/DAO.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1389898271733" ignored="false" />
+    <file path="/Role.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390327609728" ignored="false" />
+    <file path="/UserLogin.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390316674083" ignored="false" />
+    <file path="/UserPersonalData.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390323772382" ignored="false" />
+    <file path="/Developer.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390322900166" ignored="false" />
+    <file path="/Manager.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390322887609" ignored="false" />
+    <file path="/Client.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390323681118" ignored="false" />
+    <file path="/Project.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390327603005" ignored="false" />
+    <file path="/Task.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390327623063" ignored="false" />
+    <file path="/LoginData.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390327571854" ignored="false" />
+    <file path="/ManagerProfile.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390324560476" ignored="false" />
+    <file path="/DeveloperProfile.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390324508245" ignored="false" />
+    <file path="/ClientProfile.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390327453629" ignored="false" />
+    <file path="/UserProfile.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390327525268" ignored="false" />
+    <file path="/MySQLConnectionPool.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390330569467" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,73 +160,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="8" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.0">
+            <state line="14" column="25" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeAction.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/mvc/HomeAction.java">
+      <file leaf-file-name="Manager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Manager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="38" selection-start="817" selection-end="817" vertical-scroll-proportion="0.48392856">
+            <state line="18" column="29" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DispatcherServlet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/web/servlet/DispatcherServlet.java">
+      <file leaf-file-name="MySQLConnectionPool.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/dao/MySQLConnectionPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="21" selection-start="1500" selection-end="1500" vertical-scroll-proportion="0.0">
+            <state line="40" column="8" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.41001856">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/log4j.properties">
+      <file leaf-file-name="FlexiblePool.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/pool/FlexiblePool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="39" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
+            <state line="32" column="11" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="Project.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Project.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="21" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DAO.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/dao/DAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="20" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
+            <state line="12" column="20" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectionCreator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/dao/ConnectionCreator.java">
+      <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="11" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0">
+            <state line="14" column="40" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Developer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Developer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="35" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Task.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="31" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Role.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Role.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="25" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginData.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/LoginData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="25" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -228,22 +260,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/pool/ScallablePool.java" />
-        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/pool/PoolInstance.java" />
-        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/pool/PoolProxyInstance.java" />
-        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/pool/PoolProxy.java" />
-        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/pool/Pool.java" />
-        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/pool/PoolServant.java" />
-        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/dao/DAO.java" />
-        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/pool/FlexiblePool.java" />
-        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/dao/ConnectionCreator.java" />
-        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/dao/ConnectionPool.java" />
-        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/dao/MySQLConnectionPool.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/log4j.properties" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/web/servlet/DispatcherServlet.java" />
         <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/mvc/HomeAction.java" />
+        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/mvc/servlet/DispatcherServlet.java" />
+        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/UserLogin.java" />
+        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Manager.java" />
+        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Client.java" />
+        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/UserPersonalData.java" />
+        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/ClientProfile.java" />
+        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/ManagerProfile.java" />
+        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/UserProfile.java" />
+        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/LoginData.java" />
+        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Project.java" />
+        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Task.java" />
+        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Role.java" />
+        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/DeveloperProfile.java" />
+        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Developer.java" />
+        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/dao/MySQLConnectionPool.java" />
       </list>
     </option>
   </component>
@@ -460,10 +492,6 @@
               <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="servlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -491,33 +519,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="epam_last_light" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="epam_last_light" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="by" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pklochkov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jedi" />
+              <option name="myItemId" value="security" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -574,44 +576,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jedi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="epam_last_light" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="epam_last_light" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="by" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pklochkov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jedi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -678,6 +642,9 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="by.pklochkov.jedi.mvc.ui" />
       <recent name="by.pklochkov.jedi.web.mvc" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="by.pklochkov.jedi.entity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\epam_last_light\web\resource\view" />
@@ -943,7 +910,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39443535" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -954,7 +921,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6040956" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6040956" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36006826" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1029,88 +996,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/pool/FlexiblePool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="41" selection-start="2082" selection-end="2082" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/pool/Pool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="45" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/mvc/SingleActionContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/dao/MySQLConnectionPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/dao/DAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="20" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="8" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="39" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="21" selection-start="1500" selection-end="1500" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_11/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="594" column="42" selection-start="24020" selection-end="24020" vertical-scroll-proportion="-0.2513863" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_11/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="17" selection-start="982" selection-end="982" vertical-scroll-proportion="0.3401109" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/dao/ConnectionCreator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="11" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0">
@@ -1141,7 +1026,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/mvc/HomeAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="38" selection-start="817" selection-end="817" vertical-scroll-proportion="0.48392856">
+        <state line="32" column="9" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/mvc/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="1" selection-start="2518" selection-end="2518" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="40" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="25" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="31" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="25" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="20" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/LoginData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="25" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Developer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="35" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="29" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/pool/FlexiblePool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="11" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/dao/MySQLConnectionPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="8" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.41001856">
           <folding />
         </state>
       </provider>

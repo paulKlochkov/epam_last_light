@@ -2,10 +2,11 @@ package by.pklochkov.jedi.dao;
 
 import by.pklochkov.jedi.pool.FlexiblePool;
 import by.pklochkov.jedi.pool.PoolProxy;
+import by.pklochkov.jedi.pool.PoolServant;
 import org.apache.log4j.Logger;
 
 import java.sql.Connection;
-import java.sql.SQLException;
+import java.sql.DriverManager;
 
 /**
  * Created with IntelliJ IDEA.
@@ -21,11 +22,33 @@ public class MySQLConnectionPool {
     private final static String DB_PASSWORD = "admin";
     private static final Logger LOGGER = Logger.getLogger(MySQLConnectionPool.class);
 
-    static {
+    private static final class ConnectionCreator implements PoolServant<Connection> {
+        private static DriverManager driverManager;
+        private String connectionUrl;
+        private String userName;
+        private String connectionPassword;
 
+        private ConnectionCreator(String connectionUrl, String userName, String connectionPassword) {
+            this.connectionUrl = connectionUrl;
+            this.userName = userName;
+            this.connectionPassword = connectionPassword;
+
+        }
+
+        @Override
+        public Connection createObject() throws Exception {
+            return DriverManager.getConnection(connectionUrl, userName, connectionPassword);
+        }
+
+        @Override
+        public void dispose(Connection object) throws Exception {
+            object.close();
+        }
     }
 
-    public static PoolProxy<Connection> getConnection() {
+
+    public PoolProxy<Connection> getConnection() {
         return CONNECTION_FLEXIBLE_POOL.borrow();
     }
+
 }

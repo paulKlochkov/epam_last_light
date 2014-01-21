@@ -1,4 +1,4 @@
-package by.pklochkov.jedi.web.servlet;
+package by.pklochkov.jedi.mvc.servlet;
 
 import by.pklochkov.jedi.mvc.*;
 import by.pklochkov.jedi.mvc.action.ActionParameters;
@@ -9,7 +9,6 @@ import by.pklochkov.jedi.mvc.ui.InternalResourceResolver;
 import by.pklochkov.jedi.mvc.ui.InternalViewResolver;
 import by.pklochkov.jedi.mvc.ui.ServletViewManager;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 
 import javax.servlet.ServletException;
 import java.io.IOException;
