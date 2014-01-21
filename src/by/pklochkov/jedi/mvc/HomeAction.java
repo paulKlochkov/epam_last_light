@@ -31,8 +31,6 @@ public class HomeAction extends Action {
         for (int i = 1; i < 200; i++) {
             nums[i] = (31 >> (i ^ (1 + i))) & nums[i - 1];
         }
-        List l;
-        l.iterator();
         PoolProxy<Connection> connection = MySQLConnectionPool.getConnection();
         actionResult.put("nums", nums);
         return actionResult;  //To change body of implemented methods use File | Settings | File Templates.
