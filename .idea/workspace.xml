@@ -68,7 +68,7 @@
     <file path="/FlexiblePool.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1389898983433" ignored="false" />
     <file path="/ConnectionPool.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1389962758432" ignored="false" />
     <file path="/ConnectionCreator.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1389899260012" ignored="false" />
-    <file path="/DAO.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1389898271733" ignored="false" />
+    <file path="/DAO.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390335634658" ignored="false" />
     <file path="/Role.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390327609728" ignored="false" />
     <file path="/UserLogin.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390316674083" ignored="false" />
     <file path="/UserPersonalData.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390323772382" ignored="false" />
@@ -82,7 +82,7 @@
     <file path="/DeveloperProfile.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390324508245" ignored="false" />
     <file path="/ClientProfile.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390327453629" ignored="false" />
     <file path="/UserProfile.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390327525268" ignored="false" />
-    <file path="/MySQLConnectionPool.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390330569467" ignored="false" />
+    <file path="/MySQLConnectionPool.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390332391412" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,11 +178,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MySQLConnectionPool.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MySQLConnectionPool.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/dao/MySQLConnectionPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="8" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.41001856">
-              <folding />
+            <state line="52" column="30" selection-start="1796" selection-end="1796" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="class#ConnectionCreator#0;class#MySQLConnectionPool#0" expanded="false" />
+                <element signature="method#ConnectionCreator#0;class#ConnectionCreator#0;class#MySQLConnectionPool#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -205,15 +208,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="40" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Developer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Developer.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -228,6 +222,17 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="26" column="31" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DAO.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/dao/DAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="51" selection-start="477" selection-end="477" vertical-scroll-proportion="0.5361781">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -260,7 +265,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/mvc/HomeAction.java" />
         <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/mvc/servlet/DispatcherServlet.java" />
         <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/UserLogin.java" />
         <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Manager.java" />
@@ -276,6 +280,7 @@
         <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/DeveloperProfile.java" />
         <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Developer.java" />
         <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/dao/MySQLConnectionPool.java" />
+        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/dao/DAO.java" />
       </list>
     </option>
   </component>
@@ -516,96 +521,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jedi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="epam_last_light" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="epam_last_light" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="by" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pklochkov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jedi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="epam_last_light" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="epam_last_light" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="by" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pklochkov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jedi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="epam_last_light" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="epam_last_light" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="by" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pklochkov" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jedi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -901,7 +816,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="732" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -921,7 +836,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6040956" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36006826" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -996,13 +911,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/dao/ConnectionCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="11" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_11/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="208" column="37" selection-start="7827" selection-end="7827" vertical-scroll-proportion="0.031539887">
@@ -1105,8 +1013,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/dao/MySQLConnectionPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="8" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.41001856">
-          <folding />
+        <state line="52" column="30" selection-start="1796" selection-end="1796" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="class#ConnectionCreator#0;class#MySQLConnectionPool#0" expanded="false" />
+            <element signature="method#ConnectionCreator#0;class#ConnectionCreator#0;class#MySQLConnectionPool#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/dao/DAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="51" selection-start="477" selection-end="477" vertical-scroll-proportion="0.5361781">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -3,10 +3,12 @@ package by.pklochkov.jedi.dao;
 import by.pklochkov.jedi.pool.FlexiblePool;
 import by.pklochkov.jedi.pool.PoolProxy;
 import by.pklochkov.jedi.pool.PoolServant;
+import com.mysql.jdbc.Driver;
 import org.apache.log4j.Logger;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.SQLException;
 
 /**
  * Created with IntelliJ IDEA.
@@ -23,7 +25,6 @@ public class MySQLConnectionPool {
     private static final Logger LOGGER = Logger.getLogger(MySQLConnectionPool.class);
 
     private static final class ConnectionCreator implements PoolServant<Connection> {
-        private static DriverManager driverManager;
         private String connectionUrl;
         private String userName;
         private String connectionPassword;
@@ -32,7 +33,11 @@ public class MySQLConnectionPool {
             this.connectionUrl = connectionUrl;
             this.userName = userName;
             this.connectionPassword = connectionPassword;
-
+            try {
+                DriverManager.registerDriver(new Driver());
+            } catch (SQLException e) {
+                LOGGER.error(e.getMessage());
+            }
         }
 
         @Override
@@ -46,6 +51,11 @@ public class MySQLConnectionPool {
         }
     }
 
+    public MySQLConnectionPool() {
+        if (CONNECTION_FLEXIBLE_POOL == null) {
+            CONNECTION_FLEXIBLE_POOL = new FlexiblePool<Connection>(new ConnectionCreator(DB_URL, DB_USER, DB_PASSWORD), 1, 10, false);
+        }
+    }
 
     public PoolProxy<Connection> getConnection() {
         return CONNECTION_FLEXIBLE_POOL.borrow();

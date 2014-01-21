@@ -1,5 +1,9 @@
 package by.pklochkov.jedi.dao;
 
+import by.pklochkov.jedi.pool.PoolProxy;
+
+import java.sql.Connection;
+
 /**
  * Created with IntelliJ IDEA.
  * User: pklochkov
@@ -7,12 +11,18 @@ package by.pklochkov.jedi.dao;
  * Time: 19:46
  * To change this template use File | Settings | File Templates.
  */
-public interface DAO<T, K> {
-    T create(T object);
+public abstract class DAO<T, K> {
+    private MySQLConnectionPool mySQLConnectionPool = new MySQLConnectionPool();
 
-    T update(T object);
+    public PoolProxy<Connection> getConnection() {
+        return mySQLConnectionPool.getConnection();
+    }
 
-    T delete(T object);
+    public abstract T create(T object);
 
-    T getById(K id);
+    public abstract T update(T object);
+
+    public abstract T delete(T object);
+
+    public abstract T getById(K id);
 }
