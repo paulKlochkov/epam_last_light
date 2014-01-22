@@ -68,7 +68,7 @@
     <file path="/FlexiblePool.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1389898983433" ignored="false" />
     <file path="/ConnectionPool.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1389962758432" ignored="false" />
     <file path="/ConnectionCreator.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1389899260012" ignored="false" />
-    <file path="/DAO.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390335634658" ignored="false" />
+    <file path="/DAO.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390390277624" ignored="false" />
     <file path="/Role.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390327609728" ignored="false" />
     <file path="/UserLogin.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390316674083" ignored="false" />
     <file path="/UserPersonalData.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390323772382" ignored="false" />
@@ -82,8 +82,11 @@
     <file path="/DeveloperProfile.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390324508245" ignored="false" />
     <file path="/ClientProfile.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390327453629" ignored="false" />
     <file path="/UserProfile.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390327525268" ignored="false" />
-    <file path="/MySQLConnectionPool.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390332391412" ignored="false" />
-    <file path="/RoleDAO.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390336229919" ignored="false" />
+    <file path="/MySQLConnectionPool.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390391407707" ignored="false" />
+    <file path="/RoleDAO.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390408137941" ignored="false" />
+    <file path="/ConnectionServant.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390390114360" ignored="false" />
+    <file path="/ObjectCreator.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390393764309" ignored="false" />
+    <file path="/RoleCreator.java" changelist="3c98a59f-2f3b-4510-a984-555ac45e5aa3" time="1390407741940" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +101,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -151,7 +155,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -164,7 +167,7 @@
       <file leaf-file-name="Manager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Manager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="29" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -173,10 +176,12 @@
       <file leaf-file-name="MySQLConnectionPool.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/dao/MySQLConnectionPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="30" selection-start="1796" selection-end="1796" vertical-scroll-proportion="0.0">
+            <state line="61" column="34" selection-start="2205" selection-end="2205" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="class#ConnectionCreator#0;class#MySQLConnectionPool#0" expanded="false" />
                 <element signature="method#ConnectionCreator#0;class#ConnectionCreator#0;class#MySQLConnectionPool#0" expanded="false" />
+                <element signature="method#createObject#0;class#ConnectionCreator#0;class#MySQLConnectionPool#0" expanded="false" />
+                <element signature="method#dispose#0;class#ConnectionCreator#0;class#MySQLConnectionPool#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -209,22 +214,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Task.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="31" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DAO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/dao/DAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="51" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="16" column="50" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -232,17 +226,34 @@
       <file leaf-file-name="RoleDAO.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/dao/RoleDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="8" selection-start="333" selection-end="424" vertical-scroll-proportion="0.2523191">
+            <state line="23" column="19" selection-start="857" selection-end="857" vertical-scroll-proportion="0.72541744">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1390408310360" expanded="true" signature="534:561" placeholder="INSERT INTO ..." />
+                <marker date="1390408310360" expanded="true" signature="612:662" placeholder="UPDATE roles..." />
+                <marker date="1390408310360" expanded="true" signature="716:748" placeholder="SELECT * FRO..roles..." />
+                <marker date="1390408310360" expanded="true" signature="799:835" placeholder="DELETE FROM ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntityCreator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/dao/EntityCreator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="29" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Role.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Role.java">
+      <file leaf-file-name="RoleCreator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/dao/RoleCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="25" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="24" column="19" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -266,10 +277,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/UserLogin.java" />
-        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Manager.java" />
-        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Client.java" />
-        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/UserPersonalData.java" />
         <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/ClientProfile.java" />
         <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/ManagerProfile.java" />
         <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/UserProfile.java" />
@@ -279,8 +286,12 @@
         <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Role.java" />
         <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/DeveloperProfile.java" />
         <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Developer.java" />
-        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/dao/MySQLConnectionPool.java" />
+        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/dao/ConnectionServant.java" />
         <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/dao/DAO.java" />
+        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/dao/MySQLConnectionPool.java" />
+        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/dao/ObjectCreator.java" />
+        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/dao/EntityCreator.java" />
+        <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/dao/RoleCreator.java" />
         <option value="$PROJECT_DIR$/src/by/pklochkov/jedi/dao/RoleDAO.java" />
       </list>
     </option>
@@ -390,35 +401,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="epam_last_light" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="epam_last_light" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="epam_last_light" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="epam_last_light" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="by.pklochkov.jedi.web.servlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -591,6 +573,35 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="epam_last_light" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="epam_last_light" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="epam_last_light" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="epam_last_light" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="by.pklochkov.jedi.web.servlet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -609,14 +620,14 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="dynamic.classpath" value="false" />
     <property name="Downloaded.Files.Path" value="E:\epam_last_light\lib" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -668,6 +679,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -694,19 +718,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -880,7 +891,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="732" extended-state="6" />
+    <frame x="-4" y="-4" width="1374" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -976,33 +987,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_11/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="15" selection-start="3979" selection-end="3979" vertical-scroll-proportion="0.031539887">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_11/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="27" selection-start="2747" selection-end="2747" vertical-scroll-proportion="0.030357143">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/mvc/HomeAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="9" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/mvc/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="1" selection-start="2518" selection-end="2518" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1041,13 +1029,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/LoginData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="25" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Developer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="35" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
@@ -1057,7 +1038,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="29" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1069,19 +1050,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/dao/MySQLConnectionPool.java">
+    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/entity/LoginData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="30" selection-start="1796" selection-end="1796" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="class#ConnectionCreator#0;class#MySQLConnectionPool#0" expanded="false" />
-            <element signature="method#ConnectionCreator#0;class#ConnectionCreator#0;class#MySQLConnectionPool#0" expanded="false" />
-          </folding>
+        <state line="18" column="25" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/mvc/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="1" selection-start="2518" selection-end="2518" vertical-scroll-proportion="0.77376425">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/dao/DAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="51" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+        <state line="16" column="50" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/dao/MySQLConnectionPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="34" selection-start="2205" selection-end="2205" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="class#ConnectionCreator#0;class#MySQLConnectionPool#0" expanded="false" />
+            <element signature="method#ConnectionCreator#0;class#ConnectionCreator#0;class#MySQLConnectionPool#0" expanded="false" />
+            <element signature="method#createObject#0;class#ConnectionCreator#0;class#MySQLConnectionPool#0" expanded="false" />
+            <element signature="method#dispose#0;class#ConnectionCreator#0;class#MySQLConnectionPool#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/dao/EntityCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="29" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/dao/RoleCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="19" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1090,8 +1101,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/pklochkov/jedi/dao/RoleDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="8" selection-start="333" selection-end="424" vertical-scroll-proportion="0.2523191">
-          <folding />
+        <state line="23" column="19" selection-start="857" selection-end="857" vertical-scroll-proportion="0.72541744">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1390408310360" expanded="true" signature="534:561" placeholder="INSERT INTO ..." />
+            <marker date="1390408310360" expanded="true" signature="612:662" placeholder="UPDATE roles..." />
+            <marker date="1390408310360" expanded="true" signature="716:748" placeholder="SELECT * FRO..roles..." />
+            <marker date="1390408310360" expanded="true" signature="799:835" placeholder="DELETE FROM ..." />
+          </folding>
         </state>
       </provider>
     </entry>

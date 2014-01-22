@@ -58,7 +58,8 @@ public class MySQLConnectionPool {
     }
 
     public PoolProxy<Connection> getConnection() {
-        return CONNECTION_FLEXIBLE_POOL.borrow();
+        PoolProxy<Connection> connectionPoolProxy = CONNECTION_FLEXIBLE_POOL.borrow();
+        return connectionPoolProxy;
     }
 
 }
